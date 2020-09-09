@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -8,162 +7,224 @@
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-ul{
-  list-style: none;
-}
-.container{
-  display: flex;
 
-}
-.lateral-menu{
-  background: #d4909bc7;
-  width: 400px;
-  height: 100vh;
-  font-size: 25px;
-  font-weight: bold;
- 
-
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  margin: 0;
-  border-radius: 0;
+ul {
+    list-style: none;
 }
 
-.lateral-menu ul li{
-  margin: 35px 0;
+.container {
+    display: flex;
 }
 
-.imagem{
+
+/* Menu vertical */
+
+.lateral-menu {
+    background: #62cabe;
+    width: 400px;
+    height: 100vh;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    border-radius: 0;
+}
+
+.lateral-menu ul li {
+    margin: 35px 0;
+}
+
+.content {
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content hr {
+    width: 3rem;
+    margin-bottom: 2%;
+    text-align: center;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+.imagem {
     position: relative;
 }
 
-.texto{
+.texto {
     position: absolute;
     font-size: 32px;
     left: 250px;
-    color: #fff;
+    color: black;
     text-align: center;
-    top: 380px;
-}
-.content{
-  background: #fdcdeb;
-  width: 100%;
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
+    top: 390px;
 }
 
-.definicao h1{
-   text-align: center;
-   margin: 100px;
-   font-size: 55px;
-   align-items: center; 
+.texto h1 {
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F
 }
 
-.tipos{
-  text-align: center;
-  margin: 100px;
-  font-size: 55px;
-  align-items: center;
-}  
 
+/* Seção */
 
-.content hr{
-  width: 3rem;
-  margin-bottom: 2%;
-  text-align: center;
-  display: block;
-  unicode-bidi: isolate;
-  margin-block-start: 0.5em;
-  margin-block-end: 0.5em;
-  margin-inline-start: auto;
-  margin-inline-end: auto;
-  overflow: hidden;
-  border-style: inset;
-  border-top-style: inset;
-  border-right-style: inset;
-  border-bottom-style: inset;
-  border-left-style: inset;
-  border-width: 1px;
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
- 
-}
-.card h2{
-  text-align: justify;
-  margin-top: 30px;
-  width: 100%;
-  font-size: 25px;
-  padding: 20px 30px;
-  
-}
-.card p{
-  vertical-align: middle;
-  font-size: 25px;
-  padding: 10px 20px;
-  margin-top: 20px;
-  margin: 40px;
+section {
+    padding: 20px;
+    float: left;
 }
 
-.card ul li{
-  text-align: justify;
-  font-size: 23px;
-  margin: 35px;
-  margin-top: 20px;
+#projeto {
+    background-color: #b8eee8;
 }
 
-.card h3{
-  text-align: justify;
-  margin-top: 10px;
-  margin: 10px;
+#projeto_1 {
+    background-color: #9ae7de;
 }
 
-.card .titulo{
-  text-align: center;
-  font-size: 30px;
-  margin-top: 80px;
+#projeto_2 {
+    background-color: #b8eee8;
 }
 
-.card .subtitulo{
+#projeto_3 {
+    background-color: #9ae7de;
+}
+
+#projeto_3 .icone {
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    width: 9rem;
+    height: 9rem;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+#projeto_3 .icone img {
+    margin: 1.5rem;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.p_top {
+    text-align: center;
+    padding: 0 8%;
+    padding-top: 0px;
+    padding-right: 8%;
+    padding-bottom: 0px;
+    padding-left: 8%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.1rem;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.definicao h1 {
+    text-align: center;
+    margin: 80px;
+    font-size: 40px;
+    align-items: center;
+}
+
+.definicao h2 {
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    align-items: center;
+}
+
+.definicao p {
     text-align: justify;
-    font-size: 27px;
+    margin: 50px;
+    font-size: 30px;
+}
+
+.ods {
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 10 20 10 20;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-decoration: initial;
+    text-decoration-line: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    font-size: 20px;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 50%;
+}
+
+.coluna h2 {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.coluna h3 {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.justificado ul {
+    text-align: justify;
+    font-size: 5px;
+    margin: 35px;
     margin-top: 20px;
-    margin: 15px;
-}
-.card .subsubtitulo{
-  text-align: center;
-  font-size: 25px;
-  margin-top: 15px;
-  color: #8B668B;
-  margin: 15px;
 }
 
-.card .ul{
-  color: #6C7B8B;
+.card p {
+    vertical-align: middle;
+    font-size: 1.4rem;
 }
 
-.card .img{
-  display: inline;
-  margin-left: 0;
-  margin-right: 0;
-
-}
-
-.card .table{
-  height: 20px;
-  border: 1px solid #6C7B8B;
-  padding: 5px 7px;
-  line-height: 1.3;
-  font-size: 19px;
-}
-
-#topo{
-  height: 80px;
-  width: 100%;
-  background-color:#9C9C9C;
-  text-align: center;
-  border-radius: 30px;
-  font-size: 25px; 
+.card ul li {
+    text-align: justify;
+    font-size: 23px;
+    margin: 35px;
+    margin-top: 20px;
 }
